@@ -1,0 +1,64 @@
+<?php
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function roomify_locanda_install() {
+  // Enable default_theme and admin_theme.
+  $default_theme = 'roomify';
+  $admin_theme = 'shiny';
+  // disable all themes
+  db_update('system')
+    ->fields(array('status' => 0))
+    ->condition('type', 'theme')
+    ->execute();
+  // enable $default_theme
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', $default_theme)
+    ->execute();
+  // enable $admin_theme
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', $admin_theme)
+    ->execute();
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'anchor_shores')
+    ->execute();
+  variable_set('theme_default', $default_theme);
+  variable_set('admin_theme', $admin_theme);
+  // Update the menu router information.
+  menu_rebuild();
+  // revert features to ensure they are all installed
+  $features = array(
+    'locanda_architecture',
+    'locanda_availability_calendar',
+    'locanda_unit_description',
+    'locanda_homepage',
+    'locanda_boxes',
+    'locanda_system',
+    'locanda_users',
+    'rut_deluxe',
+    'rut_platinum',
+    'rut_standard',
+  );
+  features_revert($features);
+  // ignore any rebuild messages
+  node_access_needs_rebuild(FALSE);
+  // ignore any other install messages
+  drupal_get_messages();
+  // Set the Homepage.
+  $front_page = 'homepage';
+  variable_set('site_frontpage', $front_page);
+  // Use the administration the to manage content.
+  variable_set('node_admin_theme', 1);
+  // Create example content.
+  //module_enable(array('locanda_example_content'));
+  // Flush Caches.
+  drupal_flush_all_caches();
+}

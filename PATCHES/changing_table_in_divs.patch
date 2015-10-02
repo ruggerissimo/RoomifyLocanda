@@ -1,0 +1,18 @@
+diff --git a/modules/rooms_booking_manager/rooms_booking_manager.units_per_type_form.inc b/modules/rooms_booking_manager/rooms_booking_manager.units_per_type_form.inc
+index 49b3698..37a2d00 100644
+--- a/modules/rooms_booking_manager/rooms_booking_manager.units_per_type_form.inc
++++ b/modules/rooms_booking_manager/rooms_booking_manager.units_per_type_form.inc
+@@ -71,9 +71,9 @@ function _rooms_booking_manager_load_description($form, $type_obj, $type, $price
+           $node_html = render($node_view);
+
+           $form[$type][$price]['description'] = array(
+-            '#prefix' => '<tr class="rooms-search-result__unit_details_wrapper"><td class="rooms-search-result__room-description">',
++            '#prefix' => '<div class="rooms-search-result__unit_details_wrapper"><div class="rooms-search-result__room-description">',
+             '#markup' => $node_html,
+-            '#suffix' => '</td><td class="empty"></td><td class="empty"></td></tr>',
++            '#suffix' => '</div></div>',
+           );
+         }
+       }
+
+

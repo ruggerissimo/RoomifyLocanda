@@ -1,0 +1,124 @@
+ e; Packaging information for roomify_locanda
+name = "Roomify Locanda"
+description = ""
+
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+
+; Core
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+
+; Contrib
+
+dependencies[] = addressfield
+dependencies[] = boxes
+dependencies[] = commerce
+dependencies[] = commerce_cart
+dependencies[] = commerce_cart_expiration
+dependencies[] = commerce_checkout
+dependencies[] = commerce_customer
+dependencies[] = commerce_customer_ui
+dependencies[] = commerce_line_item
+dependencies[] = commerce_order
+dependencies[] = commerce_order_ui
+dependencies[] = commerce_price
+dependencies[] = commerce_product
+dependencies[] = commerce_product_pricing
+dependencies[] = commerce_product_reference
+dependencies[] = commerce_product_ui
+dependencies[] = commerce_ui
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = fences
+dependencies[] = field_ui
+dependencies[] = field_formatter_settings
+dependencies[] = field_multiple_limit
+dependencies[] = flexslider
+dependencies[] = flexslider_fields
+dependencies[] = insert
+dependencies[] = less
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = navbar
+dependencies[] = page_manager
+dependencies[] = panelizer
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = panels_ipe
+dependencies[] = panels_mini
+dependencies[] = panels_node
+dependencies[] = role_export
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = slick
+dependencies[] = slick_views
+dependencies[] = strongarm
+dependencies[] = title
+dependencies[] = token
+dependencies[] = variable
+dependencies[] = views
+dependencies[] = views_ui
+
+; Roomify
+dependencies[] = rooms
+dependencies[] = rooms_availability
+dependencies[] = rooms_availability_constraints
+dependencies[] = rooms_availability_reference
+dependencies[] = rooms_booking
+dependencies[] = rooms_booking_manager
+dependencies[] = rooms_pricing
+dependencies[] = rooms_ui
+dependencies[] = rooms_unit
+dependencies[] = roomify_editor
+dependencies[] = roomify_page
+
+; Features
+
+dependencies[] = locanda_architecture
+dependencies[] = locanda_availability_calendar
+dependencies[] = locanda_unit_description
+dependencies[] = rut_deluxe
+dependencies[] = rut_platinum
+dependencies[] = rut_standard
+dependencies[] = locanda_rooms_hotel
+dependencies[] = mapping
+dependencies[] = locanda_boxes
+dependencies[] = locanda_system
+dependencies[] = locanda_users
+dependencies[] = locanda_homepage
