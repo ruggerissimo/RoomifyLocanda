@@ -16,6 +16,62 @@ projects[roomify_page][download][url] = "https://github.com/Roomify/roomify_page
 projects[roomify_page][branch] = "master"
 projects[roomify_page][subdir] = "contrib"
 
+; Locanda Modules
+
+projects[locanda_architecture][type] = module
+projects[locanda_architecture][download][type] = "git"
+projects[locanda_architecture][download][url] = "https://github.com/Roomify/locanda_architecture.git"
+projects[locanda_architecture][branch] = "master"
+projects[locanda_architecture][subdir] = "contrib"
+
+projects[locanda_boxes][type] = module
+projects[locanda_boxes][download][type] = "git"
+projects[locanda_boxes][download][url] = "https://github.com/Roomify/locanda_boxes.git"
+projects[locanda_boxes][branch] = "master"
+projects[locanda_boxes][subdir] = "contrib"
+
+projects[locanda_system][type] = module
+projects[locanda_system][download][type] = "git"
+projects[locanda_system][download][url] = "https://github.com/Roomify/locanda_system.git"
+projects[locanda_system][branch] = "master"
+projects[locanda_system][subdir] = "contrib"
+
+projects[locanda_availability_calendar][type] = module
+projects[locanda_availability_calendar][download][type] = "git"
+projects[locanda_availability_calendar][download][url] = "https://github.com/Roomify/locanda_availability_calendar.git"
+projects[locanda_availability_calendar][branch] = "master"
+projects[locanda_availability_calendar][subdir] = "contrib"
+
+projects[locanda_rooms_hotel][type] = module
+projects[locanda_rooms_hotel][download][type] = "git"
+projects[locanda_rooms_hotel][download][url] = "https://github.com/Roomify/locanda_rooms_hotel.git"
+projects[locanda_rooms_hotel][branch] = "master"
+projects[locanda_rooms_hotel][subdir] = "contrib"
+
+projects[locanda_users][type] = module
+projects[locanda_users][download][type] = "git"
+projects[locanda_users][download][url] = "https://github.com/Roomify/locanda_users.git"
+projects[locanda_users][branch] = "master"
+projects[locanda_users][subdir] = "contrib"
+
+projects[locanda_homepage][type] = module
+projects[locanda_homepage][download][type] = "git"
+projects[locanda_homepage][download][url] = "https://github.com/Roomify/locanda_homepage.git"
+projects[locanda_homepage][branch] = "master"
+projects[locanda_homepage][subdir] = "contrib"
+
+projects[locanda_unit_description][type] = module
+projects[locanda_unit_description][download][type] = "git"
+projects[locanda_unit_description][download][url] = "https://github.com/Roomify/locanda_unit_description.git"
+projects[locanda_unit_description][branch] = "master"
+projects[locanda_unit_description][subdir] = "contrib"
+
+projects[locanda_mapping][type] = module
+projects[locanda_mapping][download][type] = "git"
+projects[locanda_mapping][download][url] = "https://github.com/Roomify/locanda_mapping.git"
+projects[locanda_mapping][branch] = "master"
+projects[locanda_mapping][subdir] = "contrib"
+
 ; Modules
 projects[addressfield][type] = module
 projects[addressfield][version] = "1.0"
@@ -292,6 +348,19 @@ projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.0"
 projects[bootstrap][subdir] = contrib
 
+; +++++ Locanda Themes +++++
+
+projects[anchor_shores][type] = theme
+projects[anchor_shores][download][type] = "git"
+projects[anchor_shores][download][url] = "https://github.com/Roomify/anchor_shores.git"
+projects[anchor_shores][branch] = "master"
+projects[anchor_shores][subdir] = "contrib"
+
+projects[roomify_locanda_theme][type] = theme
+projects[roomify_locanda_theme][download][type] = "git"
+projects[roomify_locanda_theme][download][url] = "https://github.com/Roomify/roomify_locanda_theme.git"
+projects[roomify_locanda_theme][branch] = "master"
+projects[roomify_locanda_theme][subdir] = "contrib"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,

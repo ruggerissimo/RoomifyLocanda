@@ -6,7 +6,7 @@
  */
 function roomify_locanda_install() {
   // Enable default_theme and admin_theme.
-  $default_theme = 'roomify';
+  $default_theme = 'roomify_locanda_theme';
   $admin_theme = 'shiny';
   // disable all themes
   db_update('system')
