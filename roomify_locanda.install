@@ -48,6 +48,8 @@ function roomify_locanda_install() {
     'rut_standard',
   );
   features_revert($features);
+  // Enable example content
+  module_enable(array('locanda_example_content'));
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages

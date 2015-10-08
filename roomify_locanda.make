@@ -48,6 +48,12 @@ projects[locanda_boxes][download][url] = "https://github.com/Roomify/locanda_box
 projects[locanda_boxes][branch] = "master"
 projects[locanda_boxes][subdir] = "contrib"
 
+projects[locenda_example_content][type] = module
+projects[locenda_example_content][download][type] = "git"
+projects[locenda_example_content][download][url] = "https://github.com/Roomify/locenda_example_content.git"
+projects[locenda_example_content][branch] = "master"
+projects[locenda_example_content][subdir] = "contrib"
+
 projects[locanda_system][type] = module
 projects[locanda_system][download][type] = "git"
 projects[locanda_system][download][url] = "https://github.com/Roomify/locanda_system.git"
@@ -86,7 +92,7 @@ projects[locanda_unit_description][subdir] = "contrib"
 
 ; Modules
 projects[addressfield][type] = module
-projects[addressfield][version] = "1.0"
+projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = contrib
 
 projects[admin_menu][type] = module
@@ -109,7 +115,7 @@ projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
 
 projects[ctools][type] = module
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.9"
 projects[ctools][subdir] = contrib
 
 projects[commerce][type] = module
@@ -129,7 +135,7 @@ projects[context][version] = "3.6"
 projects[context][subdir] = contrib
 
 projects[date][type] = module
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 projects[date][subdir] = contrib
 
 projects[devel][type] = module
@@ -238,7 +244,7 @@ projects[panels][version] = "3.5"
 projects[panels][subdir] = contrib
 
 projects[pathauto][type] = module
-projects[pathauto][version] "1.2"
+projects[pathauto][version] "1.3"
 projects[pathauto][subdir] = contrib
 
 projects[plupload][type] = "module"
@@ -254,13 +260,11 @@ projects[insert][version] = "1.3"
 projects[insert][subdir] = contrib
 
 projects[leaflet][type] = module
-projects[leaflet][version] = "1.1"
-; Export all leaflet views style settings.
-projects[leaflet][patch][] = "https://www.drupal.org/files/issues/export_all_leaflet_views_style_settings-2245717-0.patch"
-projects[leaflet][subdir] = patched
+projects[leaflet][version] = "1.2"
+projects[leaflet][subdir] = contrib
 
 projects[leaflet_more_maps][type] = module
-projects[leaflet_more_maps][version] = "1.9"
+projects[leaflet_more_maps][version] = "1.14"
 projects[leaflet_more_maps][subdir] = contrib
 
 projects[libraries][type] = module
@@ -271,7 +275,7 @@ projects[media][type] = "module"
 projects[media][version] = "2.0-beta1"
 projects[media][subdir] = "contrib"
 
-projects[navbar][version] = "1.5"
+projects[navbar][version] = "1.6"
 projects[navbar][subdir] = "contrib"
 projects[navbar][subdir] = contrib
 
@@ -288,7 +292,7 @@ projects[panels_everywhere][version] = "1.0-rc2"
 projects[panels_everywhere][subdir] = contrib
 
 projects[paragraphs][type] = module
-projects[paragraphs][version] = "1.0-beta6"
+projects[paragraphs][version] = "1.0-rc3"
 projects[paragraphs][subdir] = contrib
 
 projects[role_export][type] = module
@@ -326,7 +330,7 @@ projects[slick][version] = "2.0-rc1"
 projects[slick][subdir] = "contrib"
 
 projects[slick_views][type] = "module"
-projects[slick_views][version] = "2.0-rc1"
+projects[slick_views][version] = "2.0-rc2"
 projects[slick_views][subdir] = "contrib"
 
 projects[strongarm][type] = module
@@ -372,7 +376,7 @@ projects[omega][version] = "4.3"
 projects[omega][subdir] = contrib
 
 projects[shiny][type] = "theme"
-projects[shiny][version] = "1.6"
+projects[shiny][version] = "1.7"
 projects[shiny][subdir] = contrib
 
 projects[bootstrap][type] = "theme"
