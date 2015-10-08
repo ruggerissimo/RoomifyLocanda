@@ -4,17 +4,35 @@ api = "2"
 
 ; Roomify
 
+projects[roomify_activity][type] = "module"
+projects[roomify_activity][download][type] = "git"
+projects[roomify_activity][download][url] = "https://github.com/Roomify/roomify_activity.git"
+projects[roomify_activity][branch] = "master"
+projects[roomify_activity][subdir] = "contrib"
+
 projects[roomify_editor][type] = "module"
 projects[roomify_editor][download][type] = "git"
 projects[roomify_editor][download][url] = "https://github.com/Roomify/roomify_editor.git"
 projects[roomify_editor][branch] = "master"
 projects[roomify_editor][subdir] = "contrib"
 
+projects[roomify_image_styles][type] = "module"
+projects[roomify_image_styles][download][type] = "git"
+projects[roomify_image_styles][download][url] = "https://github.com/Roomify/roomify_image_styles.git"
+projects[roomify_image_styles][branch] = "master"
+projects[roomify_image_styles][subdir] = "contrib"
+
 projects[roomify_page][type] = "module"
 projects[roomify_page][download][type] = "git"
 projects[roomify_page][download][url] = "https://github.com/Roomify/roomify_page.git"
 projects[roomify_page][branch] = "master"
 projects[roomify_page][subdir] = "contrib"
+
+projects[roomify_mapping][type] = "module"
+projects[roomify_mapping][download][type] = "git"
+projects[roomify_mapping][download][url] = "https://github.com/Roomify/roomify_mapping.git"
+projects[roomify_mapping][branch] = "master"
+projects[roomify_mapping][subdir] = "contrib"
 
 ; Locanda Modules
 
@@ -66,12 +84,6 @@ projects[locanda_unit_description][download][url] = "https://github.com/Roomify/
 projects[locanda_unit_description][branch] = "master"
 projects[locanda_unit_description][subdir] = "contrib"
 
-projects[locanda_mapping][type] = module
-projects[locanda_mapping][download][type] = "git"
-projects[locanda_mapping][download][url] = "https://github.com/Roomify/locanda_mapping.git"
-projects[locanda_mapping][branch] = "master"
-projects[locanda_mapping][subdir] = "contrib"
-
 ; Modules
 projects[addressfield][type] = module
 projects[addressfield][version] = "1.0"
@@ -81,6 +93,10 @@ projects[admin_menu][type] = module
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = contrib
 
+projects[autocomplete_deluxe][type] = "module"
+projects[autocomplete_deluxe][version] = "2.1"
+projects[autocomplete_deluxe][subdir] = "contrib"
+
 projects[backup_migrate][version] = "3.1"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][subdir] = contrib
@@ -88,6 +104,9 @@ projects[backup_migrate][subdir] = contrib
 projects[boxes][type] = module
 projects[boxes][version] = "1.2"
 projects[boxes][subdir] = contrib
+
+projects[chosen][version] = "2.0-beta4"
+projects[chosen][subdir] = "contrib"
 
 projects[ctools][type] = module
 projects[ctools][version] = "1.6"
@@ -153,6 +172,10 @@ projects[field_formatter_settings][type] = "module"
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = contrib
 
+projects[field_group][type] = "module"
+projects[field_group][version] = "1.4"
+projects[field_group][subdir] = "contrib"
+
 projects[field_multiple_limit][type] = "module"
 projects[field_multiple_limit][version] = "1.0-alpha4"
 projects[field_multiple_limit][subdir] = contrib
@@ -182,6 +205,10 @@ projects[geophp][type] = module
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = contrib
 
+projects[geolocation][type] = "module"
+projects[geolocation][version] = "1.6"
+projects[geolocation][subdir] = "contrib"
+
 projects[getdirections][type] = module
 projects[getdirections][version] = "3.2"
 projects[getdirections][subdir] = contrib
@@ -197,6 +224,10 @@ projects[less][subdir] = contrib
 projects[jquery_update][type] = module
 projects[jquery_update][version] = "3.0-alpha2"
 projects[jquery_update][subdir] = contrib
+
+projects[microdata][type] = "module"
+projects[microdata][version] = "1.0-beta2"
+projects[microdata][subdir] = "contrib"
 
 projects[migrate][type] = module
 projects[migrate][version] = "2.5"
@@ -372,6 +403,13 @@ libraries[backbone][type] = "library"
 libraries[backbone][destination] = "libraries"
 libraries[backbone][download][type] = "get"
 libraries[backbone][download][url] = "https://github.com/documentcloud/backbone/archive/1.0.0.zip"
+
+; chosen
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][type] = "library"
+libraries[chosen][destination] = "libraries"
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.4.2/chosen_v1.4.2.zip"
 
 ; ckeditor with plugins for asset module
 libraries[ckeditor][directory_name] = "ckeditor"
