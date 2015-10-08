@@ -54,11 +54,11 @@ projects[locanda_contact_page][download][url] = "https://github.com/Roomify/loca
 projects[locanda_contact_page][branch] = "master"
 projects[locanda_contact_page][subdir] = "contrib"
 
-projects[locenda_example_content][type] = module
-projects[locenda_example_content][download][type] = "git"
-projects[locenda_example_content][download][url] = "https://github.com/Roomify/locenda_example_content.git"
-projects[locenda_example_content][branch] = "master"
-projects[locenda_example_content][subdir] = "contrib"
+projects[locanda_example_content][type] = module
+projects[locanda_example_content][download][type] = "git"
+projects[locanda_example_content][download][url] = "https://github.com/Roomify/locanda_example_content.git"
+projects[locanda_example_content][branch] = "master"
+projects[locanda_example_content][subdir] = "contrib"
 
 projects[locanda_system][type] = module
 projects[locanda_system][download][type] = "git"
@@ -119,6 +119,9 @@ projects[boxes][subdir] = contrib
 
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
+
+projects[conditional_fields][version] = "3.0-alpha2"
+projects[conditional_fields][subdir] = "contrib"
 
 projects[ctools][type] = module
 projects[ctools][version] = "1.9"
