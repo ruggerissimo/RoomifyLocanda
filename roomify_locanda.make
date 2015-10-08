@@ -48,6 +48,12 @@ projects[locanda_boxes][download][url] = "https://github.com/Roomify/locanda_box
 projects[locanda_boxes][branch] = "master"
 projects[locanda_boxes][subdir] = "contrib"
 
+projects[locanda_contact_page][type] = module
+projects[locanda_contact_page][download][type] = "git"
+projects[locanda_contact_page][download][url] = "https://github.com/Roomify/locanda_contact_page.git"
+projects[locanda_contact_page][branch] = "master"
+projects[locanda_contact_page][subdir] = "contrib"
+
 projects[locenda_example_content][type] = module
 projects[locenda_example_content][download][type] = "git"
 projects[locenda_example_content][download][url] = "https://github.com/Roomify/locenda_example_content.git"
@@ -146,13 +152,29 @@ projects[diff][type] = module
 projects[diff][version] = "3.2"
 projects[diff][subdir] = contrib
 
+projects[email][version] = "1.3"
+projects[email][subdir] = "contrib"
+
 projects[entity][type] = module
 projects[entity][version] = "1.6"
 projects[entity][subdir] = contrib
 
+projects[entityform][version] = "2.0-rc1"
+projects[entityform][subdir] = "contrib"
+
+projects[entity2text][version] = "1.0-alpha3"
+projects[entity2text][subdir] = "contrib"
+
+projects[entityform_block][version] = "1.3"
+projects[entityform_block][subdir] = "contrib"
+projects[entityform_block][patch][] = "https://www.drupal.org/files/issues/entityform_block-hook_entity_type_delete-exception-2487898-13.patch"
+
 projects[entityreference][type] = module
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = contrib
+
+projects[entity_rules][version] = "1.0-alpha4"
+projects[entity_rules][subdir] = "contrib"
 
 projects[entity_translation][version] = "1.0-beta4"
 projects[entity_translation][subdir] = "contrib"
