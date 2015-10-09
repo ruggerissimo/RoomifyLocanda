@@ -122,6 +122,7 @@ dependencies[] = rooms_pricing
 dependencies[] = rooms_ui
 dependencies[] = rooms_unit
 dependencies[] = roomify_activity
+dependencies[] = roomify_blog
 dependencies[] = roomify_editor
 dependencies[] = roomify_image_styles
 dependencies[] = roomify_page

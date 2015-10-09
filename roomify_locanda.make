@@ -10,6 +10,12 @@ projects[roomify_activity][download][url] = "https://github.com/Roomify/roomify_
 projects[roomify_activity][branch] = "master"
 projects[roomify_activity][subdir] = "contrib"
 
+projects[roomify_blog][type] = "module"
+projects[roomify_blog][download][type] = "git"
+projects[roomify_blog][download][url] = "https://github.com/Roomify/roomify_blog.git"
+projects[roomify_blog][branch] = "master"
+projects[roomify_blog][subdir] = "contrib"
+
 projects[roomify_editor][type] = "module"
 projects[roomify_editor][download][type] = "git"
 projects[roomify_editor][download][url] = "https://github.com/Roomify/roomify_editor.git"
@@ -256,6 +262,12 @@ projects[jquery_update][type] = module
 projects[jquery_update][version] = "3.0-alpha2"
 projects[jquery_update][subdir] = contrib
 
+projects[masonry][version] = "3.0-beta1"
+projects[masonry][subdir] = "contrib"
+
+projects[masonry_views][version] = "3.0-beta1"
+projects[masonry_views][subdir] = "contrib"
+
 projects[microdata][type] = "module"
 projects[microdata][version] = "1.0-beta2"
 projects[microdata][subdir] = "contrib"
@@ -378,6 +390,9 @@ projects[views][type] = module
 projects[views][version] = "3.11"
 projects[views][subdir] = contrib
 
+projects[views_load_more][version] = "1.5"
+projects[views_load_more][subdir] = "contrib"
+
 projects[views_nivo_slider][version] = "3.0-alpha1"
 projects[views_nivo_slider][subdir] = "contrib"
 projects[views_nivo_slider][subdir] = contrib
@@ -487,6 +502,13 @@ libraries[less.php][type] = "library"
 libraries[less.php][destination] = "libraries"
 libraries[less.php][download][type] = "get"
 libraries[less.php][download][url] = "https://github.com/oyejorge/less.php/releases/download/v1.7.0.4/less.php_1.7.0.4.zip"
+
+; masonry
+libraries[masonry][directory_name] = "masonry"
+libraries[masonry][type] = "library"
+libraries[masonry][destination] = "libraries"
+libraries[masonry][download][type] = "get"
+libraries[masonry][download][url] = "http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"
 
 ; modernizr
 libraries[modernizr][directory_name] = "modernizr"
