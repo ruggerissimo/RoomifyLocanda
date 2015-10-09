@@ -89,7 +89,6 @@ dependencies[] = insert
 dependencies[] = less
 dependencies[] = jquery_update
 dependencies[] = libraries
-dependencies[] = microdata
 dependencies[] = navbar
 dependencies[] = page_manager
 dependencies[] = panelizer
