@@ -262,6 +262,9 @@ projects[jquery_update][type] = module
 projects[jquery_update][version] = "3.0-alpha2"
 projects[jquery_update][subdir] = contrib
 
+projects[mailsystem][version] = "2.34"
+projects[mailsystem][subdir] = "contrib"
+
 projects[masonry][version] = "3.0-beta1"
 projects[masonry][subdir] = "contrib"
 
@@ -276,6 +279,9 @@ projects[migrate][type] = module
 projects[migrate][version] = "2.5"
 projects[migrate][subdir] = contrib
 
+projects[mimemail][version] = "1.0-beta4"
+projects[mimemail][subdir] = "contrib"
+
 projects[panels][type] = module
 projects[panels][version] = "3.5"
 projects[panels][subdir] = contrib
@@ -283,6 +289,10 @@ projects[panels][subdir] = contrib
 projects[pathauto][type] = module
 projects[pathauto][version] "1.3"
 projects[pathauto][subdir] = contrib
+
+projects[pet][type] = module
+projects[pet][version] = 1.0-rc1
+projects[pet][patch][] = "https://www.drupal.org/files/pet-add-rules-state-2092195-1.patch"
 
 projects[plupload][type] = "module"
 projects[plupload][download][type] = "git"
