@@ -276,7 +276,7 @@ projects[microdata][version] = "1.0-beta2"
 projects[microdata][subdir] = "contrib"
 
 projects[migrate][type] = module
-projects[migrate][version] = "2.5"
+projects[migrate][version] = "2.8"
 projects[migrate][subdir] = contrib
 
 projects[mimemail][version] = "1.0-beta4"
@@ -348,18 +348,25 @@ projects[role_export][subdir] = contrib
 
 projects[rooms][type] = module
 projects[rooms][download][type] = "git"
-projects[rooms][download][url] = "https://www.github.com/BluesparkLabs/DrupalRoomsModule.git"
+projects[rooms][download][url] = "https://github.com/Roomify/rooms.git"
 projects[rooms][directory_name] = "rooms"
 ;patch
 projects[rooms][patch][] = "PATCHES/changing_table_in_divs.patch"
 projects[rooms][subdir] = contrib
 
+projects[bat_api][type] = module
+projects[bat_api][download][type] = "git"
+projects[bat_api][download][url] = "https://github.com/Roomify/bat_api.git"
+projects[bat_api][directory_name] = "bat_api"
+projects[bat_api][branch] = "7.x-1.x"
+
+projects[services][type] = module
+projects[services][version] = "3.12"
+
 projects[rooms_availability_constraints][type] = module
 projects[rooms_availability_constraints][download][type] = "git"
-projects[rooms_availability_constraints][download][url] = "https://www.github.com/BluesparkLabs/rooms_availability_constraints.git"
+projects[rooms_availability_constraints][download][url] = "https://www.github.com/Roomify/rooms_availability_constraints.git"
 projects[rooms_availability_constraints][directory_name] = "rooms_availability_constraints"
-projects[rooms_availability_constraints][download][tag] = "RoomsAvailabilityConstraints-Casa-1.0.4"
-projects[rooms_availability_constraints][subdir] = contrib
 
 projects[rooms_package][type] = module
 projects[rooms_package][download][type] = "git"
@@ -546,12 +553,10 @@ libraries[plupload][directory_name] = "plupload"
 libraries[plupload][type] = "library"
 
 ; rooms_fullcalendar
-libraries[rooms_fullcalendar][directory_name] = "rooms_fullcalendar"
-libraries[rooms_fullcalendar][type] = "library"
-libraries[rooms_fullcalendar][destination] = "libraries"
-libraries[rooms_fullcalendar][download][type] = "git"
-libraries[rooms_fullcalendar][download][branch] = master
-libraries[rooms_fullcalendar][download][url] = "https://github.com/Roomify/fullcalendar"
+libraries[fullcalendar][directory_name] = "fullcalendar"
+libraries[fullcalendar][type] = "library"
+libraries[fullcalendar][download][url] = "https://github.com/fullcalendar/fullcalendar/releases/download/v2.4.0/fullcalendar-2.4.0.zip"
+libraries[fullcalendar][download][type] = "file"
 
 ; slick
 libraries[slick][download][type] = "file"
