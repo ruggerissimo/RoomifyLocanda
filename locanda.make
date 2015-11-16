@@ -487,7 +487,7 @@ libraries[flexslider][type] = "library"
 
 ; leaflet
 libraries[leaflet][download][type] = "file"
-libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.6.4.zip"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
