@@ -132,6 +132,7 @@ dependencies[] = roomify_mapping
 
 ; Features
 
+dependencies[] = locanda_homepage
 dependencies[] = locanda_architecture
 dependencies[] = locanda_availability_calendar
 dependencies[] = locanda_contact_page
@@ -140,4 +141,3 @@ dependencies[] = locanda_rooms_hotel
 dependencies[] = locanda_boxes
 dependencies[] = locanda_system
 dependencies[] = locanda_users
-dependencies[] = locanda_homepage

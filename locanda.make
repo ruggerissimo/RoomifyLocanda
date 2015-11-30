@@ -293,6 +293,7 @@ projects[pathauto][subdir] = contrib
 projects[pet][type] = module
 projects[pet][version] = 1.0-rc1
 projects[pet][patch][] = "https://www.drupal.org/files/pet-add-rules-state-2092195-1.patch"
+projects[pet][subdir] = contrib
 
 projects[plupload][type] = "module"
 projects[plupload][download][type] = "git"
@@ -359,14 +360,17 @@ projects[bat_api][download][type] = "git"
 projects[bat_api][download][url] = "https://github.com/Roomify/bat_api.git"
 projects[bat_api][directory_name] = "bat_api"
 projects[bat_api][branch] = "7.x-1.x"
+projects[bat_api][subdir] = "contrib"
 
 projects[services][type] = module
 projects[services][version] = "3.12"
+projects[services][subdir] = "contrib"
 
 projects[rooms_availability_constraints][type] = module
 projects[rooms_availability_constraints][download][type] = "git"
 projects[rooms_availability_constraints][download][url] = "https://www.github.com/Roomify/rooms_availability_constraints.git"
 projects[rooms_availability_constraints][directory_name] = "rooms_availability_constraints"
+projects[rooms_availability_constraints][subdir] = "contrib"
 
 projects[rooms_package][type] = module
 projects[rooms_package][download][type] = "git"
@@ -436,9 +440,10 @@ projects[shiny][type] = "theme"
 projects[shiny][version] = "1.7"
 projects[shiny][subdir] = contrib
 
+; bootstrap
 projects[bootstrap][type] = "theme"
-projects[bootstrap][version] = "3.0"
-projects[bootstrap][subdir] = contrib
+projects[bootstrap][version] = "3.x-dev"
+projects[bootstrap][subdir] = "contrib"
 
 ; +++++ Locanda Themes +++++
 
