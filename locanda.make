@@ -286,6 +286,9 @@ projects[panels][type] = module
 projects[panels][version] = "3.5"
 projects[panels][subdir] = contrib
 
+projects[panels_bootstrap_layouts][version] = "3.0"
+projects[panels_bootstrap_layouts][subdir] = "contrib"
+
 projects[pathauto][type] = module
 projects[pathauto][version] "1.3"
 projects[pathauto][subdir] = contrib
@@ -431,10 +434,6 @@ projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
 ; Themes
-
-projects[omega][type] = "theme"
-projects[omega][version] = "4.3"
-projects[omega][subdir] = contrib
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.7"
