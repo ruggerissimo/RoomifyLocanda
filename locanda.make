@@ -276,7 +276,7 @@ projects[microdata][version] = "1.0-beta2"
 projects[microdata][subdir] = "contrib"
 
 projects[migrate][type] = module
-projects[migrate][version] = "2.8"
+projects[migrate][version] = "2.5"
 projects[migrate][subdir] = contrib
 
 projects[mimemail][version] = "1.0-beta4"
