@@ -84,7 +84,6 @@ dependencies[] = field_formatter_settings
 dependencies[] = field_multiple_limit
 dependencies[] = flexslider
 dependencies[] = flexslider_fields
-dependencies[] = i18n
 dependencies[] = insert
 dependencies[] = less
 dependencies[] = jquery_update
@@ -130,6 +129,13 @@ dependencies[] = roomify_image_styles
 dependencies[] = roomify_page
 dependencies[] = roomify_mapping
 
+; Translations
+dependencies[] = i18n
+dependencies[] = i18n_field
+dependencies[] = i18n_string
+dependencies[] = i18n_variable
+dependencies[] = i18n_menu
+dependencies[] = entity_translation_i18n_menu
 
 ; Features
 
