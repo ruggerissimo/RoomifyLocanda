@@ -411,7 +411,7 @@ projects[variable][version] = "2.5"
 projects[variable][subdir] = contrib
 
 projects[views][type] = module
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 projects[views][subdir] = contrib
 
 projects[views_load_more][version] = "1.5"
