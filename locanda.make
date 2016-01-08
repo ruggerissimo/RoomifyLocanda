@@ -198,7 +198,7 @@ projects[eu_cookie_compliance][version] = "1.14"
 projects[eu_cookie_compliance][subdir] = contrib
 
 projects[features][type] = module
-projects[features][version] = "2.6"
+projects[features][version] = "2.7"
 projects[features][subdir] = contrib
 
 projects[fences][type] = module
