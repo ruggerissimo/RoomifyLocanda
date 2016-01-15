@@ -556,10 +556,10 @@ libraries[plupload][patch][0] = "https://www.drupal.org/files/issues/plupload-1_
 libraries[plupload][directory_name] = "plupload"
 libraries[plupload][type] = "library"
 
-; rooms_fullcalendar
+; Fullcalendar
 libraries[fullcalendar][directory_name] = "fullcalendar"
 libraries[fullcalendar][type] = "library"
-libraries[fullcalendar][download][url] = "https://github.com/fullcalendar/fullcalendar/releases/download/v2.4.0/fullcalendar-2.4.0.zip"
+libraries[fullcalendar][download][url] = "https://github.com/fullcalendar/fullcalendar/releases/download/v2.6.0/fullcalendar-2.6.0.zip"
 libraries[fullcalendar][download][type] = "file"
 
 ; slick
