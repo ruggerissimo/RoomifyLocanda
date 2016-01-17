@@ -171,11 +171,13 @@ projects[entity][subdir] = contrib
 projects[entityform][version] = "2.0-rc1"
 projects[entityform][subdir] = "contrib"
 
+
 projects[entity2text][version] = "1.0-alpha3"
 projects[entity2text][subdir] = "contrib"
 
 projects[entityform_block][version] = "1.3"
 projects[entityform_block][subdir] = "contrib"
+projects[entityform_block][patch][] = "patches/patch.patch"
 
 projects[entityreference][type] = module
 projects[entityreference][version] = "1.1"
