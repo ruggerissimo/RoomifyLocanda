@@ -355,7 +355,6 @@ projects[rooms][type] = module
 projects[rooms][download][type] = "git"
 projects[rooms][download][url] = "https://github.com/Roomify/rooms.git"
 projects[rooms][directory_name] = "rooms"
-;patch
 projects[rooms][patch][] = "PATCHES/changing_table_in_divs.patch"
 projects[rooms][subdir] = contrib
 
